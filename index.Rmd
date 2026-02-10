@@ -1,34 +1,40 @@
 ---
-title: "My Dashbord at DACSS"
-bibliography: testVisual.bib 
+title: "My Storyboard at DACSS - pages"
+bibliography: testVisual.bib
 output: 
-  flexdashboard::flex_dashboard:
-    orientation: columns
+  flexdashboard::flex_dashboard
 ---
 
 ```{r setup, include=FALSE}
 library(flexdashboard) # always
 ```
 
-## Intro {.sidebar}
+Sidebar {.sidebar}
+=====================================
+
 
 Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2026.
 
-### References
-<div id="refs"></div>
+Chapter 1
+===================================== 
 
-## Column {data-width="450"}
 
-### Worst barplot <!-- a title for plot -->
+### Del 1 Draft
 
 ```{r}
 ## for del1Draft.rds
 link1="https://github.com/air-690V/hw-test/raw/main/del1Draft.rds"
 
-readRDS(url(link1)) # this is not supposed to work unless url()! 
+readRDS(url(link1))
 ```
 
-### Worst histogram 
+
+Chapter 2
+===================================== 
+
+
+
+### Del 2 Draft
 
 ```{r}
 ## for del2Draft.rds
@@ -36,14 +42,21 @@ link2="https://github.com/air-690V/hw-test/raw/main/del2Draft.rds"
 readRDS(url(link2))
 ```
 
-## Column {data-width="550"}
+Chapter 3
+===================================== 
 
-### Worst scatterplot
+
+### Del 3 Draft
 
 ```{r}
 ## for del3Draft.rds
 link3="https://github.com/air-690V/hw-test/raw/main/del3Draft.rds"
 readRDS(url(link3))
 ```
+
+
+
+References
+===================================== 
 
 
